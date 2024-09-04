@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+button {
+    width: 60px;
+    height: 30px;
+    background-color: wheat;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+li{
+    list-style-type: none;
+}
+
+.con {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo1 {
+    width: 200px;
+    height: 100px;
+}
+
+.logo1 img {
+    width: 200px;
+    height: 100px;
+}
+
+header .main {
+    width: 600px;
+    height: 100px;
+}
+
+
+.main .mainye {
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+} 
+.main li{
+    width: 25%;
+    height: 25px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(125, 125, 125);
+}
+
+.main li:hover {
+    background-color: rgb(105, 255, 168);
+    color: rgb(0, 0, 0);
+}
+
+.sl {
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+    font-size: 0;
+}
+
+.sl li {
+    animation: sl 9s infinite;
+}
+
+@keyframes sl {
+    0%{
+        transform: translateY(0px);
+    }
+    33%{
+        transform: translateY(-300px);
+    }
+    66%{
+        transform: translateY(-600px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+}
+
+.conts {
+    width: 1200px;
+    display: flex;
+}
+
+.no {
+    width: 400px;
+    height: 200px;
+    
+}
+
+.ban {
+    width: 400px;
+    height: 200px;
+}
+
+.ban img {
+    width: 398px;
+    height: 168px;
+}
+
+.sw {
+    width: 400px;
+    height: 200px;
+}
+
+.sw img {
+    width: 398px;
+    height: 168px;
+}
+
+
+
+footer {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo2 {
+    width: 200px;
+    height: 100px;
+}
+
+.logo2 img {
+    width: 200px;
+    height: 100px;
+}
+
+.sns {
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.cop {
+    padding-top: 20px;
+}
+
+.sns img {
+    width: 62px;
+    height: 62px; 
+}
+
+
